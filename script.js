@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
   }
   
+  
   async function getImageOfTheDay() {
     const selectedDate = document.getElementById("search-input").value;
     if(selectedDate==='') return alert("Please Provide Valid Date");
